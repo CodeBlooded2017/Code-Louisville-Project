@@ -1,0 +1,136 @@
+
+
+/*in sign-inn.html, <body oncontextmenu="return false"> = no right click*/
+
+
+
+/*Body CSS*/
+
+body{
+  position:fixed;
+  pverflow-y: scroll;
+  width: 100%;
+  top: -20px;
+  right: 515px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background-image: url(https://22293-presscdn-pagely.netdna-ssl.com/wp-content/uploads/12551_5F00_Organized_5F00_lead_5F00_21.jpg);
+  background-size: cover;
+  -webkit-filter: blur(0px);
+}
+
+/* THIS DOES NOTHING/* THIS DOES NOTHING!!!!!*//* THIS DOES NOTHING!!!!!*/
+head{
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50%-255px);
+}
+
+/*Controls header class div*/
+/*I NEED HELP HERE........*/
+.header div {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  margin-top: -50px;
+  color: green;
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+/*controls span under first header class*/
+
+.header span {
+  color: red;
+}
+
+/*log-in window - keeps centered*/
+
+.login {
+  position: fixed; /*whast does this do? absolute, relative, etc...*/
+  border: 3px solid green;
+  top: 50%;
+  left: 25%;   /*This is all out of wack*/
+  text-align: center;
+  height: 150px;
+  width: 50%;
+  padding: 10px;
+}
+
+/*Customizing Username Login Box*/
+
+.login input [type=text]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
+/*Customizing Password Login Box*/
+
+.login input [type=password]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: black;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
+/*Customizing Submit Button*/
+.login input [type=button]{
+  width: 260px;
+
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+/*Causes Username, PSWD, & Login-button to be opaque*/
+.login input[type=button]:hover{
+  opacity: 0.8;
+}
+
+.login input[type=button]:active{
+  opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+  color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+  color: rgba(255,255,255,0.6);
+}

@@ -1,0 +1,573 @@
+/***Meta Data***/
+
+
+/*************
+Preventing horizontal scrolling
+**************/
+body, html { overflow-x:hidden; }
+
+/*Very top Free Shipping Black Line*/
+.topline {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  background: black;
+}
+
+/*All Buttons*/
+.button1, .discountbtn, .button2, .button3, .button4 {
+  padding: 4px 9px;
+  border-radius: 4px;
+  background-color: #3fa801;
+  color: white;
+}
+
+/*All Search Boxes*/
+#mysearch, #elistEmailAddress {
+  border: 1.5px solid grey;
+}
+
+/*Adjusting Header Links*/
+
+li, body, p {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+/*Yard Sports, Sign-up/sign-in, search box customization*/
+/*Yard Sports, Sign-up/sign-in, search box customization*/
+.container {
+  background-color: none;
+  display: -webkit-flex;
+  display: flex;
+  height: 95px;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+/*YardSports.com*/
+.main {
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 25%;
+  color: red;
+  text-decoration: none;
+}
+
+.search {
+  text-align: right;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.sign-up {
+
+  text-decoration: none;
+  color: red;
+}
+
+.login {
+
+  text-decoration: none;
+  color: red;
+}
+
+/* Nav Bar */
+/* Nav Bar */
+
+/*Styles Nav Bar*/
+.selected {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  background-color: #3fa801;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+/*Color of Nav Bar links*/
+li, a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Turns off a change in color for visited links*/
+a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3fa801;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-content:hover .dropbtn {
+    background-color: #c4ff33;
+}
+
+
+
+/////////////////*Adjusting Pictures for Lightbox*////////////
+.flex-container1 {
+}
+
+.flex-container1 {       /*first group of 4 photos*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: black;
+    margin-bottom: -10px;
+  }
+
+.flex-container2 {     /*second group of 4 photos*/
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  background-color: black;
+  margin-top: 0;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+
+.next {
+  padding: 16px;
+  margin-left: 70%;
+  width: auto;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  color: blue;
+  border: solid;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev {
+  padding: 16px;
+  margin-right: 70%;
+  width: auto;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  color: blue;
+  border: solid;
+  border-radius: 0 3px 3px 0;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/9 etc) */
+.numbertext {
+  color: #black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The Modal (picture alignment) */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.column-wrap1 {     /* Modal first group of 4 photos*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: none;
+    margin-bottom: -10px;
+  }
+
+.column-wrap2 {     /* Modal second group of 4 photos*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: none;
+    margin-bottom: -10px;
+  }
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+/*E-mail Discount Window*/
+.discount_window2, .discount_window3 {
+    float: none;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: middle;
+    color: black;
+}
+
+.discount_window1 {
+  border-style: solid;
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.discount_window2 {
+    width: 100%;
+    color: black;
+}
+
+.discount_title {
+  font-weight: bold;
+  color: black;
+}
+
+.elist__input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.discountwords {
+  color: black;
+}
+
+
+/*Flext Box for flex-container & Bottom half of 1st page*/
+/*Flext Box for flex-container & Bottom half of 1st page*/
+
+
+.flex-container3 {
+    flex: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+/*Flex Box 1*/
+.flex-item1 {
+    flex-direction: row;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGwFZfrh8teGVDmHoGkyy_21y82lhrNkOQ_ACQK5NkAwlHnzU");
+}
+
+/*Flex Box 2*/
+.flex-item2 {
+    flex-direction: row;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    vertical-align: -10%;
+    background-image: url("https://www.kohls.com/ecom/CustomerService/WorldShipping.png");
+
+}
+
+/*Flex Box 3*/
+.flex-item3 {
+    flex-direction: row;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhKKBkQmf_S4b66zDbiP00XUgs-EUHzCVUpXK7EShlK7xVefrqmQ");
+    background-repeat: no-repeat;
+}
+
+
+.flex-container4 {
+    flex: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    background-color: lightgrey;
+    margin: auto;
+
+}
+
+/*Flex Box 4*/
+.flex-item4 {
+    flex-direction: row;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: url("http://bestanimations.com/Flags/USA/usa-american-flag-waving-animated-gif-26.gif");
+}
+
+/*Flex Box 5*/
+.flex-item5 {
+  flex-direction: row;
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  background-image: url("https://img0.etsystatic.com/199/1/15673391/il_570xN.1294880516_8n69.jpg");
+}
+
+/*Flex Box 6*/
+  .flex-item6 {
+  flex-direction: row;
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/51bvIKhT3xL.jpg");
+}
+
+
+footer {
+  padding-top: 10px;
+  color: blue;
+}
+
+/*=================================
+  Media Queries
+====================================*/
+@media (max-width: 960px) {
+
+  .selected {
+    width: 90%;
+    margin: auto;
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #3fa801;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+.container {
+  background-color: none;
+  display: block;
+  height: 95px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*YardSports.com*/
+.main {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  margin: auto;
+  width: 50%;
+
+}
+
+.search {
+  text-align: center;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.sign-up {
+
+  text-decoration: none;
+  color: red;
+  margin: auto;
+  width: 50%;
+}
+
+.login {
+  margin-right: -15px;
+  text-decoration: none;
+  color: red;
+  margin: auto;
+  width: 50%;
+}
+
+
+
+
+  .flex-container3 {
+      flex: center;
+      flex-wrap: wrap;
+      display: -webkit-flex;
+      display: block;
+      width: 325px;
+      background-color: lightgrey;
+      margin: auto;
+  }
+
+  .flex-container4 {
+      flex: center;
+      flex-wrap: wrap;
+      display: -webkit-flex;
+      display: block;
+      width: 325px;
+      background-color: lightgrey;
+      margin: auto;
+}
+
+
+
+} /*This belongs to the media query, do not delete!*/
+
+
+
+
+
+@media (min-width: 1025px) {
+    /*.main-header, {
+     width: 100%;
+     margin: 0;
+     text-align: center;
+     } */
+
+.selected {
+width: 100%;
+flex-direction: row;
+justify-content: space-around;
+background-color: #3fa801;
+font-family: sans-serif;
+font-weight: 600;
+height: 30px;
+}}
+
+   }

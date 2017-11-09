@@ -1,0 +1,102 @@
+
+
+
+/*  Header alignment & color*/
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0;
+}
+
+/* Body Text*/
+
+.wrap {
+  font-family: 'Cairo', sans-serif;
+  height: 100%
+}
+
+
+/*Info About Yard Sports*/
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 5%;
+  line-height: 1.5;
+}
+
+
+
+/*Image Controls*/
+
+
+/** Supersceeded (spell) by .gallery below* - consider deleting/
+img {
+  font-family: 'Cairo', sans-serif;
+  height: 100%
+
+}
+
+
+/* Temporary BODY  color*/
+
+
+
+/*Changing Body Font Size*/
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+  }
+
+
+/* Color of Link When People
+Have visited a link!*/
+nav a, nav a:visited {
+  color: red;
+
+}
+
+/*Color when people scroll over a link HOVER.
+"selectd is the name of a class in about's html"*/
+nav a.selected, nav a:hover {
+  color: pink;
+}
+
+/* Portfolio Pictures - adjusting size and location*/
+.gallery {
+  margin: 20;
+  padding-left: 20;
+  color: grey;
+  list-style: none;        /***List-style removes bullet points***/
+
+}
+
+.gallery li {
+  float: left;
+  width: 100%;
+  margin: 2.5%
+  background-color: red;
+  color: blue;
+  text-align: center;
+
+}
+
+/* FOOTER */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  font-size: .75em;
+  text-align: left;
+  padding-top: 50px;
+  color: gray;
+}

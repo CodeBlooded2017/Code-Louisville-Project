@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Log-in to Yard Sports</title>
+  <style>
+  @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+  @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+  </style>
+</head>
+
+<body oncontextmenu="return false">
+  <header class="main-header">
+  <h1 class="main"><a href="index.html">Yard Sports</a></h1>
+  <a class="sign-in" href="login.html">Login</a>
+    <ul class="selected">
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about yard sports.html">About Us</a></li>
+      <li><a href="contact yard sports.html">Contact</a></li>
+      <li><a href="shipping and returns.html">Shipping/Returns</a></li>
+    </ul>
+  </header>
+
+  <div class="body"></div>
+  <div class="grad"></div>
+  <div class="header">
+    <div>Please<span>Subscribe</span></div>
+  </div>
+  <br>
+
+
+  <form name="login">
+    <div class="login">
+      <input type="text" name="userid" placeholder="username" class="email"><br>
+      <input type="password" placeholder="password" name="pswrd"><br>
+      <input type="button" onclick="check(this.form)" value="Login"/>
+  </div>
+  </form>
+
+  <script language="javascript">
+  function check(form)
+    {
+      if(form.userid.value == "dew" && form.pswrd.value == "123")
+        {
+        window.open('http://www.cnbc.com/')
+        }
+      else
+        {
+        alert("The username and password is incorrect!")
+        }
+    }
+  </script>
+
+
+</body>
+
+</html>

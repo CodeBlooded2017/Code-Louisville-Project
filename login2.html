@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Cairo:700|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/login2.css">
+  <title>Yard Sports, LLC Home</title>
+</head>
+<body>
+  <a href="index.html">
+  <a href="yard sports homepage.html" id=""></a>
+
+
+  <header class="main-header">
+  <h1 class="main"><a href="index.html">YardSports.com</a></h1>
+
+  <a class="sign-in" href="login.html">Sign-up</a>
+    <ul class="selected">
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about yard sports.html">About Us</a></li>
+      <li><a href="contact yard sports.html">Contact</a></li>
+      <li><a href="shipping and returns.html">Shipping/Returns</a></li>
+    </ul>
+  </header>
+
+
+
+  <form action="/action_page.php">
+    <div class="container">
+      <label><b>Email:</b></label>
+      <input type="text" placeholder="Enter Username (yard)" name="userid" required>
+
+      <label><b>Password:</b></label>
+      <input type="password" placeholder="Enter Password (sports)" name="pswrd" required>
+      <div class="clearfix">
+        <button type="submit" class="submitbtn" onclick="check(this.form)" value="Submit">Submit</button>
+        <a href="index.html"><button type="button"  class="cancelbtn">Cancel</button></a>
+      </div>
+
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  <script language="javascript">
+  function check(form)
+    {
+      if(form.userid.value == "yard" && form.pswrd.value == "sports")
+        {
+        window.open('http://www.cnbc.com/')
+        }
+      else
+        {
+        alert("The username and password is incorrect!")
+        }
+    }
+  </script>
+
+
+
+
+
+</body>
+</html>
