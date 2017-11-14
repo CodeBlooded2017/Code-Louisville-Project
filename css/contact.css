@@ -35,3 +35,7 @@ input[type=submit]:hover {
     padding: 20px;
     color: black;
 }
+
+.email, .phone {
+  color: blue;
+}

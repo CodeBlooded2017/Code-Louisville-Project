@@ -1,5 +1,5 @@
 
-#aboutintro {
+#aboutintro {  /*Controls H2 header prompting signup */
   font-weight: 400;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -19,7 +19,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.submitbtn, .cancelbtn {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -41,7 +41,7 @@ button {
 }
 
 /* Add padding to container elements */
-.container {
+.container1 {
   margin: auto;
   width: 50%;
   border: 3px solid green;
@@ -71,6 +71,10 @@ button {
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.terms {
+  color: blue;
 }
 
 /* The Close Button (x) */

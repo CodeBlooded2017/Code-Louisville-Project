@@ -347,3 +347,8 @@ button:active {
     opacity: 1;
   }
 }
+
+.backhome {
+  text-decoration: none;
+  color: blue;
+}

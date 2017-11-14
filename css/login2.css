@@ -14,7 +14,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.submitbtn, .cancelbtn {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -34,7 +34,7 @@ button {
 
 
 /* Add padding to container elements */
-.container {
+.container1 {
   margin: auto;
   width: 50%;
   border: 3px solid green;
@@ -44,7 +44,7 @@ button {
 
 
 /* Add a hover effect for buttons */
-button:hover {
+.submitbtn, .cancelbtn:hover {
     opacity: 0.8;
 }
 
@@ -63,14 +63,16 @@ img.avatar {
 }
 
 /* Add padding to containers */
-.container {
+.container1 {
     padding: 16px;
 }
 
 /* The "Forgot password" text */
-span.psw {
+span.psw, .forgotpswrd {
     float: right;
+    margin-left: 10px;
     padding-top: 16px;
+    color: blue;
 }
 
 
