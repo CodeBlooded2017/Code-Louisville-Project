@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="css/main2.css">
   <meta name="viewport" content="width=device-width" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Yard Sports, LLC Home</title>
 </head>
-
   <body>
    <div class="topline"><a href="shipping and returns.html">Free Shipping in the U.S. <small>*on select items</small></a></div>
       <header class="main-header">
@@ -23,7 +21,7 @@
       </div>
       <ul class="selected">
         <li>
-                    <div class="dropdown">
+          <div class="dropdown">
               <a href="products3.html"><button onclick="myFunction()" class="dropbtn">Products</button></a>
               <div id="myDropdown" class="dropdown-content">
                 <a href="products3.html">Mega Stack</a>
@@ -44,8 +42,6 @@
         <li><a href="shipping and returns.html">Shipping/Returns</a></li>
       </ul>
     </header>
-
-
     <div class="flex-container1">
       <div>
         <img src="images/redditpost1_resized.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
@@ -92,7 +88,6 @@
         <img src="images/img_7356_resized.jpg"  onclick="openModal();currentSlide(9)" class="hover-shadow">
       </div>
     </div>
-
     <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
       <div class="modal-content">
@@ -157,8 +152,6 @@
           <img src="images/img_7356_resized.jpg" style="width:28%">
         </div>
       </div>
-
-
         <a class="prev" onclick="plusSlides(-1)">Prev</a>
         <a class="next" onclick="plusSlides(1)">Next</a>
 
@@ -212,6 +205,8 @@
         </div>
       </div>
     </div>
+
+        // discount window  //
     <div class="discount_window1">
       <div class="discount_window2">
   			<h2 class="discount_title">Sign up for our Mailing List!</h2>
@@ -223,9 +218,7 @@
   		</div>
     </div>
 
-
-
-
+    // flex container 3 //
     <div class="flex-container3">
       <div class="flex-item1">Nearly all productes are manufactured in the USA!</div>
       <div class="flex-item2">Free Shipping on most items within the United States!
@@ -246,27 +239,27 @@
       </div>
     </div>
 
-
+<!--open modal  -->
     <script>
     function openModal() {
       document.getElementById('myModal').style.display = "block";
     }
-
+// close modal //
     function closeModal() {
       document.getElementById('myModal').style.display = "none";
     }
 
     var slideIndex = 1;
     showSlides(slideIndex);
-
+//allows to move to nexzt slide //
     function plusSlides(n) {
       showSlides(slideIndex += n);
     }
-
+// brings up current slide //
     function currentSlide(n) {
       showSlides(slideIndex = n);
     }
-
+// button and picture control with caption  //
     function showSlides(n) {
       var i;
       var slides = document.getElementsByClassName("mySlides");
@@ -286,6 +279,7 @@
     }
     </script>
 
+// drop down menu for nav bar //
     <script>
     function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");}
@@ -303,9 +297,6 @@
       }
     }
     </script>
-
-
-
   <footer class="footer">
     <a href="https://www.facebook.com/Yard-Sports-LLC-348553545586575/"><img src="images/facebook-wrap.png" alt="facebook logo"></a>
     <p>&copy; 2017 Yard Sports, LLC.</p>
